@@ -36,7 +36,6 @@ public class SeleniumTest1Test {
         driver.findElement(By.linkText("대학/대학원")).click();
         driver.findElement(By.linkText("컴퓨터공학과")).click();
         driver.findElement(By.linkText("대학소개")).click();
-
         driver.navigate().to("https://www.google.com");
         Thread.sleep(1000);
         driver.get("https://www.selenium.dev/"); // driver.navigate().to("https://www.selenium.dev/");
