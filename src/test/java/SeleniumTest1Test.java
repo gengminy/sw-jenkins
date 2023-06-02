@@ -25,12 +25,10 @@ public class SeleniumTest1Test {
         js = (JavascriptExecutor) driver;
         vars = new HashMap<String, Object>();  // provides a way to share data or pass information between different parts of the test
     }
-
     @After
     public void tearDown() {
         driver.quit();
     }
-
     @Test
     public void hongik5() throws InterruptedException {
         driver.get("https://www.hongik.ac.kr/index.do");
